@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Domain/1.0.0": {
+        "dependencies": {
+          "EnterpriseLibrary.Common": "6.0.1304",
+          "GuardClauses": "1.2.4"
+        },
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
+      "EnterpriseLibrary.Common/6.0.1304": {
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1304.0"
+          }
+        }
+      },
+      "GuardClauses/1.2.4": {
+        "runtime": {
+          "lib/netstandard2.1/GuardClauses.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnterpriseLibrary.Common/6.0.1304": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w/ua1PWAQD1/CnJ+qz/5APgmqI/1YnbamnwFGSotm7b66sFIkrnfLC+9+WzcSZWnePwwUw3Pl2QsLVDyX7NwaQ==",
+      "path": "enterpriselibrary.common/6.0.1304",
+      "hashPath": "enterpriselibrary.common.6.0.1304.nupkg.sha512"
+    },
+    "GuardClauses/1.2.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TMW4Ex5L8b40hNzpEI3ylNmO/dzjP2a9i6nU5QjmNKXw0Gfus4Zoof+h0mhyAxWjdBnXJCrcKFx9K1N7iawr8A==",
+      "path": "guardclauses/1.2.4",
+      "hashPath": "guardclauses.1.2.4.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "EnterpriseLibrary.Common/6.0.1304": {
+        "type": "package",
+        "compile": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GuardClauses/1.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/GuardClauses.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/GuardClauses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnterpriseLibrary.Common/6.0.1304": {
+      "sha512": "w/ua1PWAQD1/CnJ+qz/5APgmqI/1YnbamnwFGSotm7b66sFIkrnfLC+9+WzcSZWnePwwUw3Pl2QsLVDyX7NwaQ==",
+      "type": "package",
+      "path": "enterpriselibrary.common/6.0.1304",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EnterpriseLibrary.Configuration.xsd",
+        "Update-EntlibConfiguration.ps1",
+        "enterpriselibrary.common.6.0.1304.nupkg.sha512",
+        "enterpriselibrary.common.nuspec",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.dll",
+        "lib/NET45/Microsoft.Practices.EnterpriseLibrary.Common.xml",
+        "tools/Utils.psm1",
+        "tools/install.ps1"
+      ]
+    },
+    "GuardClauses/1.2.4": {
+      "sha512": "TMW4Ex5L8b40hNzpEI3ylNmO/dzjP2a9i6nU5QjmNKXw0Gfus4Zoof+h0mhyAxWjdBnXJCrcKFx9K1N7iawr8A==",
+      "type": "package",
+      "path": "guardclauses/1.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "guardclauses.1.2.4.nupkg.sha512",
+        "guardclauses.nuspec",
+        "lib/netstandard2.1/GuardClauses.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "EnterpriseLibrary.Common >= 6.0.1304",
+      "GuardClauses >= 1.2.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\malam\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\malam\\OneDrive\\Desktop\\IdeasApplication\\IdeaApp\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\malam\\OneDrive\\Desktop\\IdeasApplication\\IdeaApp\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\malam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\malam\\OneDrive\\Desktop\\IdeasApplication\\IdeaApp\\Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\malam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "EnterpriseLibrary.Common": {
+            "target": "Package",
+            "version": "[6.0.1304, )"
+          },
+          "GuardClauses": {
+            "target": "Package",
+            "version": "[1.2.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EnterpriseLibrary.Common 6.0.1304' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EnterpriseLibrary.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
